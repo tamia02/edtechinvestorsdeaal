@@ -16,17 +16,22 @@
     --text-muted: #71717a;     /* Zinc 500 */
     
     /* Brand Accents */
-    --gold-primary: #eab308;   /* Yellow 500 */
-    --gold-accent: #f59e0b;    /* Amber 500 */
-    --gold-metallic: #d4af37;  /* Classic gold */
+    --brand-primary: #d61a21;   /* Vibrant brand red matching logo */
+    --brand-accent: #ef4444;    /* Vibrant red */
+    --brand-dark: #9b111e;      /* Deep rich crimson red */
     --indigo-glow: #6366f1;    /* Indigo 500 */
     --blue-glow: #3b82f6;      /* Blue 500 */
     
+    /* Legacy variables mapped to brand colors to preserve stylesheet integrity */
+    --gold-primary: var(--brand-primary);
+    --gold-accent: var(--brand-accent);
+    --gold-metallic: var(--brand-dark);
+    
     /* Gradients */
-    --gold-gradient: linear-gradient(135deg, #f59e0b 0%, #d4af37 50%, #eab308 100%);
-    --gold-gradient-hover: linear-gradient(135deg, #fbbf24 0%, #e5c158 50%, #facc15 100%);
+    --gold-gradient: linear-gradient(135deg, #ef4444 0%, #d61a21 50%, #9b111e 100%);
+    --gold-gradient-hover: linear-gradient(135deg, #f87171 0%, #e52230 50%, #b3101c 100%);
     --dark-gradient: linear-gradient(180deg, #121214 0%, #09090b 100%);
-    --text-glow-gradient: linear-gradient(to right, #ffffff 30%, #f59e0b 100%);
+    --text-glow-gradient: linear-gradient(to right, #ffffff 30%, #d61a21 100%);
     
     /* Layout & Spacing */
     --container-width: 1200px;
