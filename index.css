@@ -16,9 +16,9 @@
     --text-muted: #71717a;     /* Zinc 500 */
     
     /* Brand Accents */
-    --brand-primary: #d61a21;   /* Vibrant brand red matching logo */
-    --brand-accent: #ef4444;    /* Vibrant red */
-    --brand-dark: #9b111e;      /* Deep rich crimson red */
+    --brand-primary: #00a6bd;   /* Vibrant brand cyan matching logo */
+    --brand-accent: #00c2dc;    /* Vibrant cyan */
+    --brand-dark: #007889;      /* Deep rich dark cyan */
     --indigo-glow: #6366f1;    /* Indigo 500 */
     --blue-glow: #3b82f6;      /* Blue 500 */
     
@@ -28,10 +28,10 @@
     --gold-metallic: var(--brand-dark);
     
     /* Gradients */
-    --gold-gradient: linear-gradient(135deg, #ef4444 0%, #d61a21 50%, #9b111e 100%);
-    --gold-gradient-hover: linear-gradient(135deg, #f87171 0%, #e52230 50%, #b3101c 100%);
+    --gold-gradient: linear-gradient(135deg, #00c2dc 0%, #00a6bd 50%, #007889 100%);
+    --gold-gradient-hover: linear-gradient(135deg, #38def3 0%, #00b5ce 50%, #008b9e 100%);
     --dark-gradient: linear-gradient(180deg, #121214 0%, #09090b 100%);
-    --text-glow-gradient: linear-gradient(to right, #ffffff 30%, #d61a21 100%);
+    --text-glow-gradient: linear-gradient(to right, #ffffff 30%, #00a6bd 100%);
     
     /* Layout & Spacing */
     --container-width: 1200px;
