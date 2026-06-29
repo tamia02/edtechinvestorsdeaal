@@ -16,11 +16,11 @@
     --text-muted: #71717a;     /* Zinc 500 */
     
     /* Brand Accents */
-    --brand-primary: #00a6bd;   /* Vibrant brand cyan matching logo */
-    --brand-accent: #00c2dc;    /* Vibrant cyan */
-    --brand-dark: #007889;      /* Deep rich dark cyan */
-    --indigo-glow: #6366f1;    /* Indigo 500 */
-    --blue-glow: #3b82f6;      /* Blue 500 */
+    --brand-primary: #e21a22;   /* Vibrant brand red matching logo */
+    --brand-accent: #ff3b44;    /* Vibrant accent red */
+    --brand-dark: #b30f16;      /* Deep rich dark red */
+    --indigo-glow: #f43f5e;    /* Rose 500 */
+    --blue-glow: #ef4444;      /* Red 500 */
     
     /* Legacy variables mapped to brand colors to preserve stylesheet integrity */
     --gold-primary: var(--brand-primary);
@@ -28,10 +28,10 @@
     --gold-metallic: var(--brand-dark);
     
     /* Gradients */
-    --gold-gradient: linear-gradient(135deg, #00c2dc 0%, #00a6bd 50%, #007889 100%);
-    --gold-gradient-hover: linear-gradient(135deg, #38def3 0%, #00b5ce 50%, #008b9e 100%);
+    --gold-gradient: linear-gradient(135deg, #ff3b44 0%, #e21a22 50%, #b30f16 100%);
+    --gold-gradient-hover: linear-gradient(135deg, #ff5e65 0%, #ed272e 50%, #cc141c 100%);
     --dark-gradient: linear-gradient(180deg, #121214 0%, #09090b 100%);
-    --text-glow-gradient: linear-gradient(to right, #ffffff 30%, #00a6bd 100%);
+    --text-glow-gradient: linear-gradient(to right, #ffffff 30%, #e21a22 100%);
     
     /* Layout & Spacing */
     --container-width: 1200px;
@@ -1082,11 +1082,11 @@ section {
 }
 
 .pane-visual-2 {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.9), transparent), radial-gradient(circle at 70% 30%, rgba(99,102,241,0.25), transparent), url('assets/sales.png');
+    background-image: linear-gradient(to top, rgba(0,0,0,0.9), transparent), radial-gradient(circle at 70% 30%, rgba(244,63,94,0.25), transparent), url('assets/sales.png');
 }
 
 .pane-visual-3 {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.9), transparent), radial-gradient(circle at 70% 30%, rgba(59,130,246,0.25), transparent), url('assets/marketing.png');
+    background-image: linear-gradient(to top, rgba(0,0,0,0.9), transparent), radial-gradient(circle at 70% 30%, rgba(239,68,68,0.25), transparent), url('assets/marketing.png');
 }
 
 .pane-visual-4 {
@@ -1887,7 +1887,7 @@ section {
 }
 
 .bg-amber { background: var(--gold-gradient); }
-.bg-blue { background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%); }
+.bg-blue { background: linear-gradient(135deg, #f87171 0%, #ef4444 100%); }
 .bg-violet { background: linear-gradient(135deg, #a78bfa 0%, #7c3aed 100%); }
 .bg-teal { background: linear-gradient(135deg, #2dd4bf 0%, #0d9488 100%); }
 
